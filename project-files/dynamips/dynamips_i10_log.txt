@@ -1,0 +1,28 @@
+Dec 10 15:50:01.416 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 10 15:50:01.416 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51845.
+Dec 10 15:50:01.425 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 10 15:50:01.426 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips 
+Dec 10 15:50:01.426 GENERAL: working_dir=/Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips
+Dec 10 15:50:01.426 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips/e261e43e-1bc9-4c5d-8cf8-87134312184e 
+Dec 10 15:50:01.426 GENERAL: working_dir=/Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips/e261e43e-1bc9-4c5d-8cf8-87134312184e
+Dec 10 15:50:01.426 HYPERVISOR: exec_cmd: vm create EmpC 10 c7200 
+Dec 10 15:50:01.427 VM: VM EmpC created.
+Dec 10 15:50:01.427 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpC 5009 
+Dec 10 15:50:01.427 HYPERVISOR: exec_cmd: c7200 get_mac_addr EmpC 
+Dec 10 15:50:01.427 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 10 15:50:01.428 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 0 0 C7200-IO-FE 
+Dec 10 15:50:01.428 HYPERVISOR: exec_cmd: vm set_disk0 EmpC 0 
+Dec 10 15:50:01.429 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 10 15:50:01.429 HYPERVISOR: exec_cmd: vm set_idle_pc EmpC 0x63185f24 
+Dec 10 15:50:01.430 HYPERVISOR: exec_cmd: vm set_ios EmpC /Users/francisco/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 10 15:50:01.430 HYPERVISOR: exec_cmd: c7200 set_mac_addr EmpC ca0a.0c33.0000 
+Dec 10 15:50:01.431 HYPERVISOR: exec_cmd: vm set_nvram EmpC 512 
+Dec 10 15:50:01.431 HYPERVISOR: exec_cmd: vm set_ram EmpC 512 
+Dec 10 15:50:01.431 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 10 15:50:01.432 HYPERVISOR: exec_cmd: vm slot_remove_binding EmpC 0 0 
+Dec 10 15:50:01.432 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 10 15:50:01.432 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 0 0 C7200-IO-2FE 
+Dec 10 15:50:01.432 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 10 15:50:01.433 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 1 0 PA-2FE-TX 
+Dec 10 15:50:01.433 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 10 15:50:01.433 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 2 0 PA-2FE-TX 

@@ -1,0 +1,28 @@
+Dec 10 15:50:01.054 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 10 15:50:01.054 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51784.
+Dec 10 15:50:01.057 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 10 15:50:01.057 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips 
+Dec 10 15:50:01.057 GENERAL: working_dir=/Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips
+Dec 10 15:50:01.058 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips/4eb5e754-ab15-45ae-912b-577c452f2bb3 
+Dec 10 15:50:01.058 GENERAL: working_dir=/Users/francisco/GNS3/projects/ProjetoFinalARA/project-files/dynamips/4eb5e754-ab15-45ae-912b-577c452f2bb3
+Dec 10 15:50:01.058 HYPERVISOR: exec_cmd: vm create Aveiro 1 c7200 
+Dec 10 15:50:01.058 VM: VM Aveiro created.
+Dec 10 15:50:01.058 HYPERVISOR: exec_cmd: vm set_con_tcp_port Aveiro 5000 
+Dec 10 15:50:01.059 HYPERVISOR: exec_cmd: c7200 get_mac_addr Aveiro 
+Dec 10 15:50:01.059 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 10 15:50:01.059 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 0 0 C7200-IO-FE 
+Dec 10 15:50:01.060 HYPERVISOR: exec_cmd: vm set_disk0 Aveiro 0 
+Dec 10 15:50:01.060 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 10 15:50:01.060 HYPERVISOR: exec_cmd: vm set_idle_pc Aveiro 0x63185f24 
+Dec 10 15:50:01.061 HYPERVISOR: exec_cmd: vm set_ios Aveiro /Users/francisco/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 10 15:50:01.062 HYPERVISOR: exec_cmd: c7200 set_mac_addr Aveiro ca01.0c1a.0000 
+Dec 10 15:50:01.062 HYPERVISOR: exec_cmd: vm set_nvram Aveiro 512 
+Dec 10 15:50:01.062 HYPERVISOR: exec_cmd: vm set_ram Aveiro 512 
+Dec 10 15:50:01.063 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 10 15:50:01.063 HYPERVISOR: exec_cmd: vm slot_remove_binding Aveiro 0 0 
+Dec 10 15:50:01.063 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 10 15:50:01.064 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 0 0 C7200-IO-2FE 
+Dec 10 15:50:01.064 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 10 15:50:01.064 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 1 0 PA-2FE-TX 
+Dec 10 15:50:01.065 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 10 15:50:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 2 0 PA-2FE-TX 
