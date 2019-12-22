@@ -1,0 +1,49 @@
+Dec 21 22:20:15.999 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 21 22:20:15.999 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45503.
+Dec 21 22:20:16.009 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 21 22:20:16.009 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips 
+Dec 21 22:20:16.009 GENERAL: working_dir=/home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips
+Dec 21 22:20:16.009 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips/76a4d92e-cb78-449d-a584-1a445a08b51e 
+Dec 21 22:20:16.009 GENERAL: working_dir=/home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips/76a4d92e-cb78-449d-a584-1a445a08b51e
+Dec 21 22:20:16.010 HYPERVISOR: exec_cmd: vm create Vigo 11 c7200 
+Dec 21 22:20:16.010 VM: VM Vigo created.
+Dec 21 22:20:16.010 HYPERVISOR: exec_cmd: vm set_con_tcp_port Vigo 5010 
+Dec 21 22:20:16.010 HYPERVISOR: exec_cmd: c7200 get_mac_addr Vigo 
+Dec 21 22:20:16.010 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:16.011 HYPERVISOR: exec_cmd: vm slot_add_binding Vigo 0 0 C7200-IO-FE 
+Dec 21 22:20:16.011 HYPERVISOR: exec_cmd: vm set_disk0 Vigo 0 
+Dec 21 22:20:16.011 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:16.011 HYPERVISOR: exec_cmd: vm set_idle_pc Vigo 0x63185884 
+Dec 21 22:20:16.012 HYPERVISOR: exec_cmd: vm set_ios Vigo /home/joao/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 21 22:20:16.012 HYPERVISOR: exec_cmd: c7200 set_mac_addr Vigo ca0b.0c36.0000 
+Dec 21 22:20:16.013 HYPERVISOR: exec_cmd: vm set_nvram Vigo 512 
+Dec 21 22:20:16.013 HYPERVISOR: exec_cmd: vm set_ram Vigo 512 
+Dec 21 22:20:16.013 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:16.013 HYPERVISOR: exec_cmd: vm slot_remove_binding Vigo 0 0 
+Dec 21 22:20:16.014 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:16.014 HYPERVISOR: exec_cmd: vm slot_add_binding Vigo 0 0 C7200-IO-2FE 
+Dec 21 22:20:16.014 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:16.014 HYPERVISOR: exec_cmd: vm slot_add_binding Vigo 1 0 PA-2FE-TX 
+Dec 21 22:20:16.014 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:16.015 HYPERVISOR: exec_cmd: vm slot_add_binding Vigo 2 0 PA-2FE-TX 
+Dec 21 22:20:19.703 HYPERVISOR: exec_cmd: nio create_udp udp-b95c5927-11db-4673-a16c-667fa0fa7dd4 10056 127.0.0.1 10057 
+Dec 21 22:20:19.917 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Vigo 2 0 udp-b95c5927-11db-4673-a16c-667fa0fa7dd4 
+Dec 21 22:20:19.918 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:20.213 HYPERVISOR: exec_cmd: nio create_udp udp-b361bbf4-a9c4-4207-b78d-a7b5ddba0d4c 10062 127.0.0.1 10063 
+Dec 21 22:20:20.214 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Vigo 0 0 udp-b361bbf4-a9c4-4207-b78d-a7b5ddba0d4c 
+Dec 21 22:20:20.214 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:20.277 HYPERVISOR: exec_cmd: nio create_udp udp-dd239317-681e-4991-b49c-816a51940d10 10066 127.0.0.1 10067 
+Dec 21 22:20:20.278 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Vigo 0 1 udp-dd239317-681e-4991-b49c-816a51940d10 
+Dec 21 22:20:20.278 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:20:20.785 HYPERVISOR: exec_cmd: nio create_udp udp-d4cd02c1-63d5-4856-8141-b3d0bb882156 10082 127.0.0.1 10083 
+Dec 21 22:20:20.786 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Vigo 1 1 udp-d4cd02c1-63d5-4856-8141-b3d0bb882156 
+Dec 21 22:20:20.786 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:45:11.346 HYPERVISOR: exec_cmd: vm set_ghost_status Vigo 2 
+Dec 21 22:45:11.347 HYPERVISOR: exec_cmd: vm set_ghost_file Vigo /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 21 22:45:11.347 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:45:11.348 HYPERVISOR: exec_cmd: vm set_config Vigo configs/i11_startup-config.cfg configs/i11_private-config.cfg 
+Dec 21 22:45:11.348 HYPERVISOR: exec_cmd: vm start Vigo 
+Dec 21 22:45:41.586 HYPERVISOR: exec_cmd: vm extract_config Vigo 
+Dec 21 22:45:54.092 HYPERVISOR: exec_cmd: vm get_status Vigo 
+Dec 21 22:45:54.103 HYPERVISOR: exec_cmd: vm set_idle_pc_online Vigo 0 0x6318687c 
+Dec 21 22:46:11.587 HYPERVISOR: exec_cmd: vm extract_config Vigo 

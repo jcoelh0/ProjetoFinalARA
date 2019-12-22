@@ -1,0 +1,43 @@
+Dec 21 22:20:15.965 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 21 22:20:15.965 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 37631.
+Dec 21 22:20:15.976 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 21 22:20:15.976 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips 
+Dec 21 22:20:15.976 GENERAL: working_dir=/home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips
+Dec 21 22:20:15.977 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips/e261e43e-1bc9-4c5d-8cf8-87134312184e 
+Dec 21 22:20:15.977 GENERAL: working_dir=/home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips/e261e43e-1bc9-4c5d-8cf8-87134312184e
+Dec 21 22:20:15.977 HYPERVISOR: exec_cmd: vm create EmpC 10 c7200 
+Dec 21 22:20:15.977 VM: VM EmpC created.
+Dec 21 22:20:15.977 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpC 5009 
+Dec 21 22:20:15.978 HYPERVISOR: exec_cmd: c7200 get_mac_addr EmpC 
+Dec 21 22:20:15.978 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:15.978 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 0 0 C7200-IO-FE 
+Dec 21 22:20:15.979 HYPERVISOR: exec_cmd: vm set_disk0 EmpC 0 
+Dec 21 22:20:15.979 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:15.979 HYPERVISOR: exec_cmd: vm set_idle_pc EmpC 0x63185884 
+Dec 21 22:20:15.980 HYPERVISOR: exec_cmd: vm set_ios EmpC /home/joao/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 21 22:20:15.980 HYPERVISOR: exec_cmd: c7200 set_mac_addr EmpC ca0a.0c33.0000 
+Dec 21 22:20:15.980 HYPERVISOR: exec_cmd: vm set_nvram EmpC 512 
+Dec 21 22:20:15.981 HYPERVISOR: exec_cmd: vm set_ram EmpC 512 
+Dec 21 22:20:15.981 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:15.981 HYPERVISOR: exec_cmd: vm slot_remove_binding EmpC 0 0 
+Dec 21 22:20:15.981 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:15.982 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 0 0 C7200-IO-2FE 
+Dec 21 22:20:15.982 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:15.982 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 1 0 PA-2FE-TX 
+Dec 21 22:20:15.982 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:15.982 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 2 0 PA-2FE-TX 
+Dec 21 22:20:20.419 HYPERVISOR: exec_cmd: nio create_udp udp-0a53309d-c2cc-4f7d-92ec-50bc34abf40a 10074 127.0.0.1 10075 
+Dec 21 22:20:20.633 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpC 0 1 udp-0a53309d-c2cc-4f7d-92ec-50bc34abf40a 
+Dec 21 22:20:20.634 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:20:21.083 HYPERVISOR: exec_cmd: nio create_udp udp-12a760d0-724e-4c57-91cc-9bc8af20f1e7 10090 127.0.0.1 10091 
+Dec 21 22:20:21.084 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpC 0 0 udp-12a760d0-724e-4c57-91cc-9bc8af20f1e7 
+Dec 21 22:20:21.084 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:45:11.343 HYPERVISOR: exec_cmd: vm set_ghost_status EmpC 2 
+Dec 21 22:45:11.344 HYPERVISOR: exec_cmd: vm set_ghost_file EmpC /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 21 22:45:11.345 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:45:11.345 HYPERVISOR: exec_cmd: vm set_config EmpC configs/i10_startup-config.cfg configs/i10_private-config.cfg 
+Dec 21 22:45:11.346 HYPERVISOR: exec_cmd: vm start EmpC 
+Dec 21 22:45:41.579 HYPERVISOR: exec_cmd: vm extract_config EmpC 
+Dec 21 22:45:54.089 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 21 22:45:54.103 HYPERVISOR: exec_cmd: vm set_idle_pc_online EmpC 0 0x6318687c 
+Dec 21 22:46:11.580 HYPERVISOR: exec_cmd: vm extract_config EmpC 
