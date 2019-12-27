@@ -1,0 +1,19 @@
+Dec 27 14:56:01.358 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 27 14:56:01.358 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 33121.
+Dec 27 14:56:01.368 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 14:56:01.368 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips 
+Dec 27 14:56:01.368 GENERAL: working_dir=/home/joao/Desktop/ARA/ProjetoFinalARA/project-files/dynamips
+Dec 27 14:56:01.369 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Dec 27 14:56:06.455 HYPERVISOR: exec_cmd: nio create_udp udp-db00cb55-ca78-43f5-a127-60769ec7817e 10042 127.0.0.1 10043 
+Dec 27 14:56:06.455 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-db00cb55-ca78-43f5-a127-60769ec7817e 
+Dec 27 14:56:06.468 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-db00cb55-ca78-43f5-a127-60769ec7817e 1 
+Dec 27 14:56:06.579 HYPERVISOR: exec_cmd: nio create_udp udp-9eb9384e-05b0-4766-88fb-8439b1b2bb02 10044 127.0.0.1 10045 
+Dec 27 14:56:06.579 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-9eb9384e-05b0-4766-88fb-8439b1b2bb02 
+Dec 27 14:56:06.589 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-9eb9384e-05b0-4766-88fb-8439b1b2bb02 1 
+Dec 27 14:56:16.072 HYPERVISOR: exec_cmd: nio create_udp udp-a978e181-1b27-489b-862a-e37f1ca733d4 10135 127.0.0.1 10134 
+Dec 27 14:56:16.073 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-a978e181-1b27-489b-862a-e37f1ca733d4 
+Dec 27 14:56:16.086 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-a978e181-1b27-489b-862a-e37f1ca733d4 1 
+Dec 27 15:18:25.372 HYPERVISOR: exec_cmd: ethsw delete Switch4 
+Dec 27 15:18:25.435 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 27 15:18:25.879 HYPERVISOR: Stopped.
+Dec 27 15:18:25.879 GENERAL: reset done.
